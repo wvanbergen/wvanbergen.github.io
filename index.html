@@ -1,13 +1,62 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: guillaume!
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
+  <img alt="Willem van Bergen" id="title" src="images/title.gif" />
+  <img alt="Personal Website" id="subtitle" src="images/subtitle.gif" />
+
+
+  <div id="middle">
+    <h2 id="identity-header"> My online identity </h2>
+    <ul id="identity" class="links">
+      <li> <a href="http://www.flickr.com/photos/wvanbergen/" title="Pictures I have taken with my Nikon D40 and Canon Powershot G9. Or, if you go back some years, pictures taken with my parents' Medion camera or my old camera: a Sony DSC-P72. There are even some pictures taken with my phone!">
+        My photo collection</a></li>
+      <li> <a href="http://github.com/wvanbergen/" title="All my projects on github.com. Most are related to Ruby on Rails. And to my surpise, some of them are actually used by other people!">
+        My open source contributions</a></li>
+      <li> <a href="http://www.linkedin.com/in/wvanbergen" title="Professional contacts I have gatherered over the years. This is also the place if you want to have a look at my resumée, although the PDF versions look way better.">
+        My professional network</a></li>
+      <li> <a href="http://www.twitter.com/wvanbergen" title="Professional contacts I have gatherered over the years. This is also the place if you want to have a look at my resumée, although the PDF versions look way better.">
+        My microblogging</a></li>
+
+      <li class="spacer"> <a title="A slightly optimized Google query for you! Filters out all the Jan Willem van Bergen Houwelingen links." 
+            href="http://www.google.com/search?rls=en&amp;q=%22willem+van+bergen%22+-%22jan+willem%22&amp;ie=UTF-8&amp;oe=UTF-8">
+        Me according to Google</a></li>
+      <li> <a href="/google" title="Googling my name yields some great results, but some are not really related to me besides my name. Meet some of the other Willem van Bergens!">
+        Google according to me</a></li>
+    </ul>
+
+    <h2 id="links-header"> Some links </h2>
+    <ul id="links" class="links">
+      <li> <a href="http://www.shopify.com" title="My daytime job. Shopify sells great e-commerce software as a service.">Shopify</a></li>
+      <li> <a href="http://www.railsdoctors.com" title="My nighttime job">Railsdoctors.com</a></li>
+      <li> <a href="http://www.floorplanner.com" title="Another previous job">Floorplanner.com</a></li>
+      <li> <a href="http://www.monito.nl" title="Where I used to work in a previous life">Monito</a></li>
+    </ul>
+  
+    <h2 id="trips-header"> Trips I've embarked upon </h2>
+    <ul id="trips" class="links">
+      <li><a title="May 2010" href="http://www.flickr.com/photos/willemvanbergen/collections/72157624068319734/">Québec, Ontario &amp; New York</a></li>
+      <li><a title="April 2010" href="http://www.flickr.com/photos/willemvanbergen/sets/72157623657332505/">Newfoundland</a></li>
+      <li><a title="August 2009" href="http://www.flickr.com/photos/willemvanbergen/sets/72157621947817547/map/">London</a></li>
+      <li><a title="October 2008" href="http://maps.google.nl/maps/ms?ie=UTF8&amp;hl=nl&amp;msa=0&amp;msid=109714965615024816136.000450b8d078b917efa5f&amp;t=p&amp;z=5">Pacific North-West</a></li>
+      <li><a title="August 2008" href="http://www.flickr.com/photos/willemvanbergen/map?&amp;fLat=48.8529&amp;fLon=2.3381&amp;zl=5">Paris</a></li>
+      <li><a title="May 2008" href="http://www.flickr.com/photos/willemvanbergen/sets/72157605067703614/">Budapest</a></li>
+      <li><a title="April 2008" href="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=109714965615024816136.0004485e10bdd4574053b&amp;t=p&amp;z=7">Meso-America</a></li>
+      <li><a title="October 2007" href="http://www.flickr.com/photos/willemvanbergen/map?&amp;fLat=52.5214&amp;fLon=13.3899&amp;zl=4">Berlin</a></li>
+      <li><a title="Autumn 2006" href="http://www.flickr.com/photos/willemvanbergen/collections/72157600336728559/">United States: east &amp; west coast</a></li>
+    </ul>
+  
+    <a class="links" id="photo" href="http://flickr.com/photos/willemvanbergen/277040352/" title="Me on the rim of the Grand Canyon">
+      <img src="images/ottawa.jpg" width="170" height="170" alt="That would be me!" /></a>
+  </div>
+  <img id="footer" src="images/footer.gif" width="373" height="58" alt="Guillaume!" />
+
+  <div id="photostream">
+  <ul>
   </ul>
-</div>
+  </div>
+  
+  <script src="http://api.flickr.com/services/feeds/photos_public.gne?id=67194633@N00&lang=en-us&size=s&format=json" type="text/javascript"></script>
+
+  

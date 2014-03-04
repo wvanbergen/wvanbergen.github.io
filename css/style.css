@@ -1,0 +1,157 @@
+
+a {
+	text-decoration: none;
+	color: #777777;
+}
+a:hover {
+	text-decoration: underline;
+}
+a img {
+	border: none;
+}
+form, .default-block {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body {
+	font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 9pt;
+	color: #333333;
+	
+	border-top: 1px solid #c10505;
+	margin: 150px 0 0 0;
+	min-height: 350px;
+}
+
+
+#title {
+	position: absolute;
+	top: 40px;
+	left: 80px;
+}
+
+#subtitle {
+	position: absolute;
+	top: 90px;
+	left: 80px;	
+}
+
+#content {
+	position: absolute;
+	left: 80px;
+	top: 150px;
+	width: 450px;
+}
+
+
+#middle {
+	border-top: 1px solid #c10505;
+	border-bottom: 1px solid #c10505;
+	background-color: #fafafa;
+	position:absolute;
+	left: 0;
+	right: 0;
+	top: 140px;
+	height: 190px;
+}
+
+#identity-header {
+	position: absolute;
+	top: 10px;
+	left: 270px;
+	margin: 0;
+	padding: 0;
+}
+#identity {
+	position: absolute;
+	top: 35px;
+	left: 280px;	
+}
+.links {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+h2 {
+	color: #c10505;
+	font-size: 13pt;
+}
+a.external {
+}
+li.spacer {
+	margin-top: 8px;
+}
+
+#links-header {
+	position: absolute;
+	top: 10px;
+	left: 470px;
+	margin: 0;
+	padding: 0;
+}
+#links {
+	position: absolute;
+	top: 35px;
+	left: 480px;	
+}
+
+#trips-header {
+	position: absolute;
+	top: 10px;
+	left: 630px;
+	margin: 0;
+	padding: 0;
+}
+#trips {
+	position: absolute;
+	top: 35px;
+	left: 640px;	
+}
+
+#photo {
+	position: absolute;
+	top: 10px;
+	left: 80px;
+}
+#footer {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	z-index: -1;
+}
+
+#photostream {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 350px;
+	padding: 20px 80px;
+}
+
+#photostream ul {
+	list-style: none;
+	width: 800px;
+	margin: 0;
+	padding: 0;
+}
+
+#photostream ul li {
+	display: inline;
+}
+#photostream ul li a {
+ padding: 2px; 
+}
+
+body.blog #middle {
+	height: auto;	
+}
+
+body.blog #middle #post {
+	margin: 10px auto 10px 80px;
+	width: 900px;
+	border-collapse: collapse;
+}
