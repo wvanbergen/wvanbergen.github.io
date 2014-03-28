@@ -1,0 +1,64 @@
+==================================================================
+https://keybase.io/wvanbergen
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://vanbergen.org
+  * I am wvanbergen (https://keybase.io/wvanbergen) on keybase.
+  * I have a public key with fingerprint 6797 4B1F 24AD E46D 773C  9AB2 EFB0 BFC9 D345 D4BD
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "67974b1f24ade46d773c9ab2efb0bfc9d345d4bd",
+            "host": "keybase.io",
+            "key_id": "EFB0BFC9D345D4BD",
+            "uid": "54c147f257a69cc9c238cbf54bba1d00",
+            "username": "wvanbergen"
+        },
+        "service": {
+            "hostname": "vanbergen.org",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1396035639,
+    "expire_in": 157680000,
+    "prev": "4847108ea763a5583fb8d25097a8e8e2d6abc40adc77bb415647994186c85b4f",
+    "seqno": 2,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owE9kWtIFFEUx3fX1FowJamQ3gNp4CIzO3deC4HoakVFDykXEre5M3fXsXVmnV3f
+SigRmYohQR/MF4Sm4KMvSUa4kBGilaFkCiUIZUr4iAKLRbsj1v1yuOf8/v9zDude
+TITJYl4ZGB6dzJh6YR4L/YSmLGaCqyCgJpcRjgriBtoKHkX1It2vK2qQcBAsJ3AA
+Uh47EGUEWJnjaEkQoR15IAk9kiDTgJEBlAkbkacFDAW2gWIApSgazuGPW5FxNiMz
+jUzLTBecmHeCNCeuFW0VGCBRgPPYGU5kBUkSJDvNS9DDAAhFSiZJAwwgXRULEKZL
+ikUVIt2LVKLKRuB8sSIhY2qj+TbzH0nRdC+W+3UtqEmaD5fygkG/w1AGy/xbdgi6
+t03cUFFlvDoWFCM9oGgq4aAwKQUVw5WiBZakGZYWbAQq9Ss6cisGwXAsT+JntEHF
+2BLwgKNIHokcS4sMw9MeyMt2hhQ4kUc8ssusCCVAirLEcRACimEBJwiA4lmJZyDw
+EMZahapGOOx4TNGLLQOKVxWDRToiqmrNB3eYzBZTVKTFOJ7Juivu30nrD0dvJF/s
+JPpvZu5sTL/26FtewWCj63ecf/X4Ykn8Wn9z/borVuiuc9U9SfhI5Hx29C2k5z5U
+vzRk/5nP/UD1RCeWTB7ITxrlX/qUudCh+ZjCJVfNs6PLe15ZEsN3Wie+OrKbrLHx
+qPL+Zumg9e7T9g3bu/Vl72xzgm+lfMbU+3ih67KzaS3rzJjW3pac9+l708nkSyOd
+05VvTswEA6OnmWMNc3UDPeHFlr1gKMkZqlm/tfDrgSV8PrW78no4FGjp6yh/Pt49
+zh8ZuuJdjdqcnWroiOztdk2vvOZq3fTg2/foVFfr7qXIAeuFiJH86H3nWvXh3qu1
+t6vP7m/zjeVUT6T++As=
+=pFDa
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/wvanbergen
+
+==================================================================
