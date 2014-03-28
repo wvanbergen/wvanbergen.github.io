@@ -1,3 +1,4 @@
 name: vanbergen.org
 markdown: redcarpet
 pygments: true
+include: .well-known
